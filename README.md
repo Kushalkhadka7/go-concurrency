@@ -137,3 +137,5 @@ func calculateSquares(number int) {
 ## Sync pool
 
 Frequent allocation and recycling of memory will cause a heavy burden to Garbage collector. `sync.Pool` caches objects that are not used temporarily and use them directly (without reallocation) when they are needed next time.
+
+`Note`: example is in `worker_pools.go`
